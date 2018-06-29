@@ -3,6 +3,8 @@
 
 可以爬取信息网站信息以及爬取图片，可以将爬取的信息和图片保存到本地储存
 
+![photo](https://github.com/Buddhas/crawler/blob/master/crawler/img/1.png)
+
 # 涉及的插件： 
    `cheerio`是node中很好的分析网页内容的插件 
    由于涉及到的页面有五十个，这次我用了`async`做了并发控制async.mapLimit() 
