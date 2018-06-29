@@ -78,23 +78,11 @@
    
    * 起一个node服务
    ```javascript
-      function asyncColtrol(){
-    getUrl();
-    async.mapLimit(urls,5,function(url,callback){
-        getContent(url,callback);
-    },function(err,result){
-        if(err){
-            console.log(err);
-        }
-        app.get('/',function(req,res){
-            res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'});
-            print(res,items);
-        })
-        
-        
-    })
-}
-
+   app.listen(3000, function() {
+      console.log('app is listening at port 3000');
+      fs.mkdir(rootDir);
+      asyncColtrol();
+   });
    ```
    
    
