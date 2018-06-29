@@ -4,6 +4,7 @@
 可以爬取信息网站信息以及爬取图片，可以将爬取的信息和图片保存到本地储存
 
 ![photo](https://github.com/Buddhas/crawler/blob/master/crawler/img/1.png)
+![photo](https://github.com/Buddhas/crawler/blob/master/crawler/img/3.png)
 
 # 涉及的插件： 
    `cheerio`是node中很好的分析网页内容的插件 
